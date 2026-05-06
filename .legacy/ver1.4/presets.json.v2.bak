@@ -1,0 +1,81 @@
+{
+    "Sony VENICE 6K": {
+        "modes": [
+            {
+                "name": "6K 3:2",
+                "sensor_w": 36.2,
+                "sensor_h": 24.1,
+                "px_w": 6048,
+                "px_h": 4032
+            },
+            {
+                "name": "6K 17:9",
+                "sensor_w": 36.2,
+                "sensor_h": 19.1,
+                "px_w": 6054,
+                "px_h": 3192
+            },
+            {
+                "name": "4K 17:9",
+                "sensor_w": 24.0,
+                "sensor_h": 12.7,
+                "px_w": 4096,
+                "px_h": 2160
+            }
+        ]
+    },
+    "ARRI Alexa 35": {
+        "modes": [
+            {
+                "name": "4.6K 3:2 Open Gate",
+                "sensor_w": 27.99,
+                "sensor_h": 19.22,
+                "px_w": 4608,
+                "px_h": 3164
+            },
+            {
+                "name": "4.6K 16:9",
+                "sensor_w": 27.99,
+                "sensor_h": 15.74,
+                "px_w": 4608,
+                "px_h": 2592
+            },
+            {
+                "name": "4K 16:9",
+                "sensor_w": 24.89,
+                "sensor_h": 14.0,
+                "px_w": 4096,
+                "px_h": 2304
+            }
+        ]
+    },
+    "Full Frame (35mm) 맞춤형": {
+        "modes": [
+            {
+                "name": "기본 3:2 FF",
+                "sensor_w": 36.0,
+                "sensor_h": 24.0,
+                "px_w": 6000,
+                "px_h": 4000
+            }
+        ]
+    },
+    "DJI Inspire 3 (Zenmuse X9-8K)": {
+        "modes": [
+            {
+                "name": "8K 17:9",
+                "sensor_w": 40.51,
+                "sensor_h": 21.36,
+                "px_w": 8192,
+                "px_h": 4320
+            },
+            {
+                "name": "4K 16:9",
+                "sensor_w": 18.96,
+                "sensor_h": 10.66,
+                "px_w": 3840,
+                "px_h": 2160
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Sony VENICE 6K (3:2)": {
+        "sensor_width": 36.2,
+        "sensor_height": 24.1
+    },
+    "ARRI Alexa 35": {
+        "sensor_width": 27.99,
+        "sensor_height": 19.22
+    },
+    "Full Frame (35mm)": {
+        "sensor_width": 36.0,
+        "sensor_height": 24.0
+    },
+    "APS-C (1.5x)": {
+        "sensor_width": 23.6,
+        "sensor_height": 15.6
+    },
+    "Micro Four Thirds (MFT)": {
+        "sensor_width": 17.3,
+        "sensor_height": 13.0
+    }
+}

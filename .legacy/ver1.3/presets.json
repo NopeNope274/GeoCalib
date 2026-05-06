@@ -1,0 +1,71 @@
+{
+    "Sony VENICE 6K": {
+        "sensor_w": 36.2,
+        "sensor_h": 24.1,
+        "modes": [
+            {
+                "name": "6K 3:2",
+                "px_w": 6048,
+                "px_h": 4032
+            },
+            {
+                "name": "6K 17:9",
+                "px_w": 6054,
+                "px_h": 3192
+            },
+            {
+                "name": "4K 17:9",
+                "px_w": 4096,
+                "px_h": 2160
+            }
+        ]
+    },
+    "ARRI Alexa 35": {
+        "sensor_w": 27.99,
+        "sensor_h": 19.22,
+        "modes": [
+            {
+                "name": "4.6K 3:2 Open Gate",
+                "px_w": 4608,
+                "px_h": 3164
+            },
+            {
+                "name": "4.6K 16:9",
+                "px_w": 4608,
+                "px_h": 2592
+            },
+            {
+                "name": "4K 16:9",
+                "px_w": 4096,
+                "px_h": 2304
+            }
+        ]
+    },
+    "Full Frame (35mm)": {
+        "sensor_w": 36.0,
+        "sensor_h": 24.0,
+        "modes": [
+            {
+                "name": "기본 3:2",
+                "px_w": 6000,
+                "px_h": 4000
+            }
+        ]
+    },
+    "DJI Inspire 3 (Zenmuse X9-8K)": {
+        "sensor_w": 40.51,
+        "sensor_h": 21.36,
+        "modes": [
+            {
+                "name": "8K 17:9",
+                "px_w": 8192,
+                "px_h": 4320
+            },
+            {
+                "name": "4K 16:9",
+                "px_w": 3840,
+                "px_h": 2160
+            }
+        ]
+    }
+}

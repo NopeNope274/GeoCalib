@@ -152,13 +152,18 @@ def torch_image_to_numpy(image: torch.Tensor) -> np.ndarray:
 
 
 def read_image(path: Path, grayscale: bool = False) -> np.ndarray:
-    """Read an image from path as RGB or grayscale."""
+    """Read an image from path as RGB or grayscale, handling unicode paths."""
     if not Path(path).exists():
         raise FileNotFoundError(f"No image at path {path}.")
     mode = cv2.IMREAD_GRAYSCALE if grayscale else cv2.IMREAD_COLOR
-    image = cv2.imread(str(path), mode)
+    try:
+        # Use np.fromfile and cv2.imdecode to handle non-ASCII paths on Windows
+        img_bytes = np.fromfile(path, dtype=np.uint8)
+        image = cv2.imdecode(img_bytes, mode)
+    except Exception as e:
+        raise IOError(f"Could not read image at {path} due to: {e}")
     if image is None:
-        raise IOError(f"Could not read image at {path}.")
+        raise IOError(f"Could not decode image at {path}. imdecode returned None.")
     if not grayscale:
         image = image[..., ::-1]
     return image
